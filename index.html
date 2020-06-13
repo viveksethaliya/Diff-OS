@@ -11,6 +11,15 @@
   background-position: center;
   background-size: cover;
 }
+ .btns:hover {
+  color: white;
+  background-color: #4CAF50;
+  text-align: center;
+  border-radius: 2px;
+  padding: 12px 28px;
+  
+ }
+ 
  .cus {
     cursor: url(Ice Normal.cur),auto;
 }            
@@ -111,7 +120,7 @@ function checkTime(i) {
     <a href="https://google.com/" target="_blank">google</a>
     <a href="music.html">music</a>
     <a href="video.html">videos</a>
-    <a href="" onclick="myFunction()">shut down</a>
+    <button onclick="myFunction()">shut down</button>
   </div>
 </div>
 </div>
@@ -169,7 +178,7 @@ function checkTime(i) {
 function myFunction() {
   
   setTimeout(function(){ window.close(); }, 3000);
-  
+  alert('bye bye');
 }
 
 </script>
