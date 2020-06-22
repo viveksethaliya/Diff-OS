@@ -22,6 +22,14 @@
        width:20px;
        background:skyblue;
        }
+ .foottx {
+       position:fixed;
+       left: 40px;
+       bottom: 0px;
+       height: 40px;
+       width: 50px;
+       background: white;
+       }
 #time {
        position:fixed;
        right:0px;
@@ -102,13 +110,14 @@ function checkTime(i) {
 <body onload="startTime()" class="cus">
  <div class="imgb">
 <div id="foot">
- <input type="text" class="foot">
+ 
 <div class="dropup">
 
 <button class="dropbtn">
   <img src="Logo.jpg" hight="20" width="40">
-
+  
 </button>
+ 
   <div class="dropup-content">
     <a href="https://google.com/" target="_blank">google</a>
     <a href="music.html">music</a>
@@ -116,7 +125,7 @@ function checkTime(i) {
   </div>
 </div>
 </div>
-  
+  <br><input type="text" class="foottx">
 <left>
 <div id="time"><p>time:<b id="txt"></p></p></div>
 </left>
